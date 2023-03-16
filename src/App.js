@@ -1,10 +1,7 @@
-import Therapist from "./components/therapists/Therapist";
-
 function App() {
   return (
     <>
-      <Therapist />
-    </>
+    APP</>
   );
 }
 
