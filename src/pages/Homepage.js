@@ -1,7 +1,10 @@
 import React from 'react'
+import Services from '../components/services/Services'
 
 export default function Homepage() {
   return (
-    <div>Homepage</div>
+    <div>
+      <Services/>
+    </div>
   )
 }
