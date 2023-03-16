@@ -4,11 +4,14 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import useStyles from './Headercss';
 import img from "./headerimage.png"
+import Navbar from "../navbar/Navbar"
 
-export default function THeaderCards() {
+export default function HeaderCards() {
   const classes = useStyles();
 
   return (
+    <>
+    <Navbar/>
     <Box sx={{ flexGrow: 1 , backgroundColor:"#325343"}} className={classes.overall}>
       <Grid container spacing={2}>
         <Grid item lg={8} md={12} sm={12} xs={12}>
@@ -24,5 +27,6 @@ export default function THeaderCards() {
         </Grid>
       </Grid>
     </Box>
+    </>
   );
 }

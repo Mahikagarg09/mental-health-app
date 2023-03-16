@@ -2,9 +2,9 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        backgroundColor: "#f7f0e6",
+        backgroundColor: "#f5f7f5",
         padding: "3rem 2rem",
-        position: "absolute",
+        position: "sticky",
         bottom: "0",
         width: "100%",
         fontFamily: "Roboto,sans-serif",
