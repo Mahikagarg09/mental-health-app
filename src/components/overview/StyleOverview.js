@@ -2,24 +2,22 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) =>({
   container: {
-    maxWidth: "lg",
+    maxWidth: "100%",
     backgroundColor: "#f7f0e6",
-    marginTop: "100px",
-    marginBottom: "100px",
     padding: "100px",
   },
   overviewHeading: {
     letterSpacing: "-0.02em",
     WebkitFontSmoothing: "antialiased",
     color: "#252625",
-    fontFamily: "Overpass,sans-serif",
+    fontFamily: "Roboto,sans-serif",
     fontSize: "3rem",
     fontStyle: "normal",
     fontWeight: "lighter",
     lineHeight: "3.5rem",
   },
   overviewContent: {
-    fontFamily: "Overpass,sans-serif",
+    fontFamily: "Roboto,sans-serif",
     color: "#252625",
     opacity: "0.8",
     marginTop: "1rem",
@@ -39,6 +37,11 @@ const useStyles = makeStyles((theme) =>({
     borderColor: "transparent",
     borderRadius: "6.25rem",
     cursor: "pointer",
+    fontFamily: "Roboto,sans-serif",
+    // hover 
+    "&:hover": {
+      opacity: "0.8",
+    },
   },
   overviewImage: {
     width: "100%",
