@@ -21,12 +21,12 @@ export default function Footer() {
               BetterMe
             </Typography>
             <Typography variant="subtitle1" color="textSecondary" gutterBottom>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Therapy is one of the most meaningful gifts you can give to your friends and loved ones. Tap into the world's largest network of licensed, accredited, and experienced therapy platform.
             </Typography>
-            <FacebookIcon className={classes.footerIcon}/>
-            <LinkedInIcon className={classes.footerIcon}/>
-            <TwitterIcon className={classes.footerIcon}/>
-            <InstagramIcon className={classes.footerIcon}/>
+            <FacebookIcon className={classes.footerIcon} />
+            <LinkedInIcon className={classes.footerIcon} />
+            <TwitterIcon className={classes.footerIcon} />
+            <InstagramIcon className={classes.footerIcon} />
           </Grid>
           <Grid item xs={12} md={12} lg={4}>
             <Typography variant="h6" color="textPrimary" gutterBottom className={classes.footerLinkHeader}>
@@ -41,7 +41,7 @@ export default function Footer() {
           </Grid>
           <Grid item xs={12} md={12} lg={4}>
             <Typography variant="h6" color="textPrimary" gutterBottom className={classes.footerLinkHeader}>
-              Quick Links
+              Important Links
             </Typography>
             <ul className={classes.footerLinkUL}>
               <li className={classes.footerLinkLI}>Terms & Conditions</li>

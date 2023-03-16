@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
         position: "absolute",
         bottom: "0",
         width: "100%",
-        fontFamily: "Overpass,sans-serif",
+        fontFamily: "Roboto,sans-serif",
     },
     footerHeader: {
         fontSize: "1.5rem",
