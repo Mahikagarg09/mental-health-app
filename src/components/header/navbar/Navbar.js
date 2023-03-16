@@ -48,7 +48,7 @@ export default function Navbar() {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
+              fontFamily: 'Roboto,sans-serif',
               fontWeight: 700,
               letterSpacing: '.3rem',
               color: 'inherit',
@@ -58,7 +58,7 @@ export default function Navbar() {
             BetterMe
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, textAlign : "center"}}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, textAlign: "center" }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -104,7 +104,7 @@ export default function Navbar() {
               mr: 2,
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
-              fontFamily: 'monospace',
+              fontFamily: 'Roboto,sans-serif',
               fontWeight: 700,
               letterSpacing: '.3rem',
               color: 'inherit',

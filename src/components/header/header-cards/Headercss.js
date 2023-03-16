@@ -4,20 +4,20 @@ const useStyles = makeStyles((theme) => ({
     overall: {
         backrgroundColor:"#325343",
         color:"white",
-        fontFamily:"Overpass,sans-serif",
+        fontFamily:"Roboto,sans-serif",
         paddingRight:"100px",        
     },
     heading: {
-        fontFamily:"Overpass,sans-serif",
-        fontWeight: 700,
-        fontSize: "3rem",
+        fontFamily:"Roboto,sans-serif",
+        fontSize: "2rem",
         paddingTop:"200px",
     },
 
     subheading: {
-        fontFamily:"Overpass,sans-serif",
-        fontWeight: 400,
+        fontFamily:"Roboto,sans-serif",
+        marginTop:"40px",
         fontSize: "1.5rem",
+        lineHeight:"1.5",
     },
 }));
 
