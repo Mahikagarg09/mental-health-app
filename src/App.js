@@ -1,7 +1,10 @@
+import Overview from "./components/overview/Overview";
+
 function App() {
   return (
     <>
-    APP</>
+      <Overview />
+    </>
   );
 }
 
