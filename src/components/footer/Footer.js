@@ -18,7 +18,7 @@ export default function Footer() {
         <Grid container spacing={12}>
           <Grid item xs={12} md={12} lg={4}>
             <Typography variant="h6" color="textPrimary" gutterBottom className={classes.footerHeader}>
-              BetterMe
+              ZenZone
             </Typography>
             <Typography variant="subtitle1" color="textSecondary" gutterBottom>
               Therapy is one of the most meaningful gifts you can give to your friends and loved ones. Tap into the world's largest network of licensed, accredited, and experienced therapy platform.

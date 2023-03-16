@@ -12,6 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import logo from '../../../assets/logo.jpg';
 
 const pages = ['About', 'Contact', 'FAQ', 'Testimonials'];
 const settings = ['Login', 'Logout'];
@@ -39,25 +40,7 @@ export default function Navbar() {
     <AppBar position="static" component="nav" sx={{ backgroundColor: '#325343' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'Roboto,sans-serif',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            BetterMe
-          </Typography>
-
+          <img src={logo} alt='logo' style={{width: "180px", marginRight: "30px", cursor: "pointer"}}></img>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, textAlign: "center" }}>
             <IconButton
               size="large"

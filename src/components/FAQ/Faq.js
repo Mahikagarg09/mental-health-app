@@ -10,19 +10,19 @@ import curve from "../../assets/curvy.png";
 
 const faqs = [
   {
-    question: "Is betterMe right for me?",
+    question: "Is ZenZone right for me?",
     answer:
-      "BetterMe may be right for you if you're looking to improve the quality of your life. Whenever there is anything that interferes with your happiness or prevents you from achieving your goals, we may be able to help. We also have therapists who specialize in specific issues such as stress, anxiety, relationships, parenting, depression, addictions, eating, sleeping, trauma, anger, family conflicts, LGBT matters, grief, religion, self esteem, and more.",
+      "ZenZone may be right for you if you're looking to improve the quality of your life. Whenever there is anything that interferes with your happiness or prevents you from achieving your goals, we may be able to help. We also have therapists who specialize in specific issues such as stress, anxiety, relationships, parenting, depression, addictions, eating, sleeping, trauma, anger, family conflicts, LGBT matters, grief, religion, self esteem, and more.",
   },
   {
-    question: "How long can I use BetterMe?",
+    question: "How long can I use ZenZone?",
     answer:
       "This depends on your needs and varies a lot from one person to another. Some people feel they get most of the value after just a few weeks, while others prefer to stick to the program for an extended period of time. This is completely up to you.",
   },
   {
     question: "How much does it cost?",
     answer:
-      "BetterMe is more affordable than traditional offline counseling and therapy, and our prices may be even lower than your health insurance co-pay. You can view pricing details in our Terms of Service.",
+      "ZenZone is more affordable than traditional offline counseling and therapy, and our prices may be even lower than your health insurance co-pay. You can view pricing details in our Terms of Service.",
   },
   // {
   //   question: "After I sign up, how long until I'm matched with a therapist?",
