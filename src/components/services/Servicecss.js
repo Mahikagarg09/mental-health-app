@@ -2,10 +2,8 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
     section: {
-        margin: '20px',
-        backgroundColor: '#fffcf6',
-        padding: '20px',
-        paddingBottom: '100px',
+        backgroundColor: '#f5f7f5',
+        padding: '50px 20px 200px 20px',
     },
     content:{
         marginLeft: '20px',
@@ -30,6 +28,11 @@ const useStyles = makeStyles((theme) => ({
         paddingBottom: '20px',
         paddingTop: '50px',
     },
+    divider: {
+        width: '100%',
+        marginBottom: '-10px',
+        marginTop: '-50px',
+    }
 }));
 
 export default useStyles;

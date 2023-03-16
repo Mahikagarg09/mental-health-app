@@ -10,8 +10,8 @@ export default function Homepage() {
   return (
     <div>
       <HeaderCards/>
-      <Overview/>
       <Services/>
+      <Overview/>
       <Therapist/>
       <Faq/>
       <Footer/>

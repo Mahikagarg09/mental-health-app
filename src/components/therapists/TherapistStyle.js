@@ -3,7 +3,7 @@ import { makeStyles } from "@mui/styles";
 const useStyles = makeStyles((theme) => ({
     Tcontainer: {
         backgroundColor: '#fffcf6;',
-        padding: '60px 50px 100px 10px',
+        padding: '60px 50px 80px 10px',
     },
     Ttransition: {
         transition: 'all 0.5s ease-in-out',
