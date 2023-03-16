@@ -11,18 +11,17 @@ export default function THeaderCards() {
   return (
     <Box sx={{ flexGrow: 1 , backgroundColor:"#325343"}} className={classes.overall}>
       <Grid container spacing={2}>
-        <Grid item lg={8} md={6} sm={12} xs={12}>
+        <Grid item lg={8} md={12} sm={12} xs={12}>
           <img src={img} sx={{ maxWidth: "100%" }} alt='image' />
         </Grid>
-        <Grid item lg={4} md={6} sm={12} xs={12}>
-          <Typography variant="h3" gutterBottom className={classes.heading}>
-            YOU DESERVE TO BE HAPPY
-          </Typography>
-          <Typography variant="h6" gutterBottom className={classes.subheading}>
-            What are you waiting for ? Go thorugh the page and find the thing which interests you!
-          </Typography>
+        <Grid item lg={4} md={12} sm={12} xs={12}>
+          <p className={classes.heading}>
+            You Deserve To Be Happy :)
+          </p>
+          <p className={classes.subheading}>
+            What are you waiting for ? Go thorugh the page and find the things that interests you!
+          </p>
         </Grid>
-
       </Grid>
     </Box>
   );
