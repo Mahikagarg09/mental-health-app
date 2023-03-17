@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import { Typography, Grid, Paper } from '@mui/material';
 import Container from '@mui/material/Container';
 import useStyles from './Servicecss';
@@ -11,14 +12,17 @@ const cardsData = [
     {
         image: card1,
         content: 'Find if you are depressed or not',
+        route: '/depression-test'
     },
     {
         image: card2,
         content: 'Look for counsellors near you',
+        route: '/find-counsellors'
     },
     {
         image: card3,
         content: 'Engage in a fun activity to relieve your stress',
+        route: '/fun-activity'
     },
 ];
 
@@ -26,6 +30,11 @@ const cardsData = [
 
 function Cards() {
     const classes = useStyles();
+    let navigate = useNavigate();
+
+    const handleCardClick = (route) => {
+        navigate(route);
+    };
 
     return (
         <>
@@ -42,6 +51,7 @@ function Cards() {
                                     className={classes.card}
                                     elevation={6}
                                     style={{ backgroundImage: `url(${card.image})` }}
+                                    onClick={() => handleCardClick(card.route)}
                                 >
                                     <h5 className={classes.content}>
                                         {card.content}
