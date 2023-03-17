@@ -1,7 +1,7 @@
 import React from 'react'
 import useStyles from './StyleFooter.js';
 import Grid from '@mui/material/Grid';
-import { Container, Typography, Button } from '@mui/material';
+import { Typography } from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';

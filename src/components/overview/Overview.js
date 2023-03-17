@@ -1,7 +1,7 @@
 import React from 'react'
 import useStyles from './StyleOverview.js';
 import Grid from '@mui/material/Grid';
-import { Container, Typography, Button } from '@mui/material';
+import { Container} from '@mui/material';
 import IMG from "../../assets/overview.png";
 
 

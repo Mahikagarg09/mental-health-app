@@ -1,4 +1,4 @@
-import { Container, Grid, Typography } from '@mui/material'
+import { Container, Grid } from '@mui/material'
 import React from 'react'
 import IMG1 from '../../assets/therapist-1.png'
 import IMG2 from '../../assets/therapist-2.png'
